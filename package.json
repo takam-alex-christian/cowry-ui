@@ -4,12 +4,15 @@
   "description": "A nuxt ui library",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "type": "module",
+  "main": "main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
     "vue": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest"
   }
 }
